@@ -1,0 +1,130 @@
+subject,cata_num,title,credits
+CMPSC,131,Programming and Computation I,3
+CMPSC,221,Object Oriented Programming with Web Applications,3
+CMPSC,360,Discrete Mathematics,3
+CMPSC,431W,Database Management Systems,3
+CMPSC,132,Programming and Computation II,4
+CMPSC,97,Special Topics,3
+CMPSC,100,Computer Fundamentals and Applications,3
+CMPSC,101,Introduction to Programming,3
+CMPSC,102,Introduction to Visual Programming,3
+CMPSC,111,Logic for Computer Science,1
+CMPSC,121,Introduction to Programming Techniques,3
+CMPSC,122,Intermediate Programming,3
+CMPSC,122H,Intermediate Programming,3
+CMPSC,150N,Computing and Society,3
+CMPSC,197,Special Topics,3
+CMPSC,199,Foreign Studies,3
+CMPSC,200,Programming for Engineers with MATLAB,3
+CMPSC,201,Programming for Engineers with C++,3
+CMPSC,203,Introduction to Spreadsheets and Databases,4
+CMPSC,204,Introduction to Computational Sciences Programming,3
+CMPSC,205,Intermediate Computational Sciences Programming,3
+CMPSC,208,Technical Game Development,3
+CMPSC,222,Advanced Data Structures and Algorithms in C,3
+CMPSC,263,Blockchain and Modern Web Development,3
+CMPSC,296,Independent Studies,3
+CMPSC,297,Special Topics,3
+CMPSC,299,Foreign Studies,3
+CMPSC,301,Event Driven Programming for Computational Sciences,3
+CMPSC,302,Intermediate Visual Programming,3
+CMPSC,311,Introduction to Systems Programming,3
+CMPSC,312,Computer Organization and Architecture,3
+CMPSC,313,Assembly Language Programming,3
+CMPSC,315,Computer Systems I,4
+CMPSC,316,Computer Systems II,4
+CMPSC,320,Software Engineering Principles,3
+CMPSC,330,Advanced Programming in C++,3
+CMPSC,335,Fundamentals of Communication Networks,3
+CMPSC,348,Data Science and Machine Learning for Computational Sciences,3
+CMPSC,395,Internship,3
+CMPSC,397,Special Topics,3
+CMPSC,399,Foreign Studies,3
+CMPSC,410,Programming Models for Big Data,3
+CMPSC,412,Data Structures Lab,1
+CMPSC,413,Algorithms Lab,1
+CMPSC,414,Contest Programming,1
+CMPSC,421,Net-centric Computing,3
+CMPSC,430,Database Design,3
+CMPSC,432,Exploratory Data Mining,3
+CMPSC,436,Communications and Networking,3
+CMPSC,438,Computer Network Architecture and Programming,3
+CMPSC,440,Data-driven Security Analytics,3
+CMPSC,441,Artificial Intelligence,3
+CMPSC,442,Artificial Intelligence,3
+CMPSC,443,Introduction to Computer and Network Security,3
+CMPSC,444,Secure Programming,3
+CMPSC,445,Applied Machine Learning in Data Science,3
+CMPSC,446,Data Mining,3
+CMPSC,447,Software Security,3
+CMPSC,448,Machine Learning and Algorithmic AI,3
+CMPSC,450,Concurrent Scientific Programming,3
+CMPSC,451,Numerical Computations,3
+CMPSC,455,Introduction to Numerical Analysis I,3
+CMPSC,456,Introduction to Numerical Analysis II,3
+CMPSC,457,Computer Graphics Algorithms,3
+CMPSC,458,Fundamentals of Computer Graphics,3
+CMPSC,460,Principles of Programming Languages,3
+CMPSC,461,Programming Language Concepts,3
+CMPSC,462,Data Structures,3
+CMPSC,463,Design and Analysis of Algorithms,3
+CMPSC,464,Introduction to the Theory of Computation,3
+CMPSC,465,Data Structures and Algorithms,3
+CMPSC,466,Introduction to Quantum Computation,3
+CMPSC,467,Factorization and Primality Testing,3
+CMPSC,469,Formal Languages with Applications,3
+CMPSC,470,Compiler Construction,3
+CMPSC,471,Introduction to Compiler Construction,3
+CMPSC,472,Operating System Concepts,3
+CMPSC,473,Operating Systems Design & Construction,3
+CMPSC,474,Operating System & Systems Programming,3
+CMPSC,475,Applications Programming,3
+CMPSC,476,Systems Debugging,3
+CMPSC,478,Advanced Algorithms,3
+CMPSC,483W,Software Design Methods,3
+CMPSC,484,Computer Science Senior Project I,2
+CMPSC,485W,Computer Science Senior Project II,3
+CMPSC,487W,Software Engineering and Design,3
+CMPSC,488,Computer Science Project,3
+CMPSC,489,Deep Learning for Computer Vision,3
+CMPSC,494,Senior Honors Thesis,3
+CMPSC,495,Internship,3
+CMPSC,496,Independent Studies,3
+CMPSC,497,Special Topics,3
+CMPSC,499,Foreign Studies,3
+CAS,100A,Effective Speech,3
+CAS,100B,Effective Speech,3
+CMPEN,270,Digital Design: Theory and Practice,4
+CMPEN,271,Digital Systems Laboratory,1
+CMPEN,275,Digital Design Projects,3
+CMPEN,331,Computer Organization and Design,3
+CMPEN,362,Communication Networks,3
+CMPEN,431,Introduction to Computer Architecture,3
+CMPEN,454,Fundamentals of Computer Vision,3
+EE,456,Introduction to Neural Networks,3
+ENGL,15,Rhetoric and Composition,3
+ENGL,137H,Rhetoric and Civic Life I,3
+ENGL,138T,Rhetoric and Civic Life II,3
+ENGL,202C,Effective Writing: Technical Writing,3
+MATH,110,Techniques of Calculus I,4
+MATH,140,Calculus with Analytic Geometry I,4
+MATH,141,Calculus with Analytic Geometry II,4
+MATH,220,Matrices,2
+MATH,230,Calculus and Vector Analysis,4
+MATH,318,Elementary Probability,3
+MATH,319,Elementary Mathematical Statistics,3
+MATH,414,Introduction to Probability Theory,3
+MATH,415,Introduction to Mathematical Statistics,3
+MATH,418,Introduction to Probability and Stochastic Processes for Engineering,3
+PHYS,211,General Physics: Mechanics,4
+PHYS,212,General Physics: Electricity and Magnetism,4
+PHYS,213,General Physics: Fluids and Thermal Physics,4
+PHYS,214,General Physics: Wave Motion and Quantum Physics,4
+STAT,318,Elementary Probability,3
+STAT,319,Elementary Mathematical Statistics,3
+STAT,414,Introduction to Probability Theory,3
+STAT,415,Introduction to Mathematical Statistics,3
+STAT,418,Introduction to Probability and Stochastic Processes for Engineering,3
+MATH,455,Introduction to Numerical Analysis,1
+MATH,40,Trigonometry and Analytical Geometry,1
+

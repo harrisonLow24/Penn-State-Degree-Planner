@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Course Planner</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Course Planner</div>
+    <nav class="nav">
+      <a href="/home" id="gotoHome" class="active">Home</a>
+      <a href="/plan" id="gotoPlan">Plan</a>
+      <a href="/history" id="gotoHistory">History</a>
+      <a href="/final" id="gotoFinal">Schedule</a>
+    </nav>
+  </header>
+
+  <main class="container">
+<!-- update when adding new tabs -->
+    <section id="home" class="card">
+      <h2>Sign in</h2>
+      <div class="row">
+        <input id="login_id" placeholder="login id, e.g., acb1234">
+        <button id="btn_signin">Sign in</button>
+      </div>
+      <div id="profile" class="muted"></div>
+      <div class="row">
+        <select id="major_select" title="Major"></select>
+      </div>
+    </section>
+
+    <section id="plan" class="hidden">
+        <h2>My plan</h2>
+          <div class="plan-grid3">
+            <aside class="card side left"> 
+              <h3>Recommended</h3>
+              <div id="rec_list" class="list"></div>
+            </aside>
+
+          <section class="card plan-main">
+            <div id="plan_meta" class="muted"></div>
+
+            <div class="row">
+              <input id="search_q" placeholder="search subject or title, e.g., CMPSC or Data" list="subject_list">
+              <datalist id="subject_list"></datalist>
+            </div>
+            <div class="row">
+              <select id="filter_subject" title="Subject"></select>
+              <select id="filter_level" title="Level">
+                  <option value="">Any level</option>
+                  <option value="100">100 level</option>
+                  <option value="200">200 level</option>
+                  <option value="300">300 level</option>
+                  <option value="400">400 level</option>
+                  <option value="500">500 level</option>
+              </select>
+              <button id="btn_search">Search</button>
+            </div>
+
+            <div id="search_results" class="list"></div>
+            <!-- <div class="muted">Completed courses</div>
+            <div id="history_list" class="list"></div> -->
+            <table id="plan_table">
+              <thead>
+                  <tr><th>Rec?</th><th>Term</th><th>Course</th><th>Title</th><th>Credits</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+
+            <div class="row" style="margin-top:20px;">
+              <button id="btn_enroll">View available schedules</button>
+            </div>
+          </section>
+              <aside class="card side right">
+                <div id="summary">
+                  <div><b>Total completed credits:</b> <span id="sum_credits">0</span></div>
+                  <div><b>Cumulative GPA:</b> <span id="sum_gpa">0.00</span></div>
+                  <div><b>Standing:</b> <span id="sum_standing">Freshman</span></div>
+                </div>
+
+                <div id="advisor_card" style="margin-top:16px;">
+                  <h3>Advisors</h3>
+                  <table id="advisor_table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+            
+                    </tbody>
+                  </table>
+                </div>
+              </aside>
+        </div>
+    </section>
+    
+    <section id="history" class="hidden">
+      <h2>Course history</h2>
+      <div class="row">
+        <div><b>Total completed credits:</b> <span id="sum_credits_hist">0</span></div>
+        <div><b>Cumulative GPA:</b> <span id="sum_gpa_hist">0.00</span></div>
+        <div><b>Standing:</b> <span id="sum_standing_hist">Freshman</span></div>
+      </div>
+      <table id="history_table">
+        <thead><tr><th>Term</th><th>Course</th><th>Title</th><th>Credits</th><th>Grade</th><th>Actions</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section id="schedule" class="hidden">
+      <h2>Available Schedules</h2>
+      <div id="schedule_content" class="card">
+        <div class="muted">Loading available class times</div>
+      </div>
+    </section>
+
+    <section id="final" class="hidden">
+      <h2>My Final Schedule</h2>
+      <div id="final_schedule_content" class="card">
+        <div class="muted">No classes chosen yet.</div>
+      </div>
+    </section>
+
+    <div id="toast" class="toast hidden"></div>
+  </main>
+
+  <script src="/main.js" defer></script>
+
+</body>
+</html>

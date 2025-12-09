@@ -1,0 +1,5 @@
+Flask==2.3.0
+Flask-SQLAlchemy==3.0.0
+python-dotenv==1.0.0
+Werkzeug==2.3.0
+# python -m pip install flask flask-sqlalchemy python-dotenv werkzeug

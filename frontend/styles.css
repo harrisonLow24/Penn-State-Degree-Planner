@@ -1,0 +1,52 @@
+:root{
+  --bg:#0d1117; --card:#111827; --muted:#9aa4b2; --text:#e6edf3;
+  --accent:#3b82f6; --accent-2:#2563eb; --border:#1f2937; --ok:#22c55e; --warn:#f59e0b; --bad:#ef4444;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Arial,sans-serif}
+
+.topbar{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;
+  padding:12px 16px;background:#0b0f15;border-bottom:1px solid var(--border)}
+.brand{font-weight:600}
+.nav a{color:var(--muted);text-decoration:none;margin-left:12px;padding:6px 10px;border-radius:8px}
+.nav a.active,.nav a:hover{background:#0f1725;color:var(--text)}
+
+.container{max-width:1320px;margin:24px auto;padding:0 16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin-bottom:16px;box-shadow:0 1px 0 #0004}
+h2{margin:0 0 10px 0;font-size:18px}
+.row{display:flex;gap:8px;align-items:center;margin:8px 0}
+input{flex:1;min-width:220px;padding:10px;border-radius:10px;border:1px solid var(--border);background:#0b1020;color:var(--text)}
+button{padding:10px 14px;border:0;border-radius:10px;background:var(--accent);color:#fff;cursor:pointer}
+button:hover{background:var(--accent-2)}
+button.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
+.muted{color:var(--muted)}
+.hidden{display:none}
+
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{padding:10px;border-bottom:1px solid var(--border);font-size:14px}
+th{color:var(--muted);text-align:left}
+
+.list>div{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border:1px solid var(--border);border-radius:10px;margin:6px 0;background:#0b1222}
+.list .meta{color:var(--muted);font-size:13px}
+
+.pre{background:#0b1020;border:1px solid var(--border);border-radius:10px;padding:10px;overflow:auto;max-height:280px}
+
+.toast{position:fixed;right:16px;bottom:16px;background:#0b1020;border:1px solid var(--border);
+  padding:10px 14px;border-radius:10px;box-shadow:0 8px 30px #0008}
+
+select{
+  padding:10px;border-radius:10px;border:1px solid var(--border);
+  background:#0b1020;color:var(--text);min-width:150px
+}
+
+.plan-grid3{display: grid; grid-template-columns: 300px minmax(0,1fr) 300px; gap: 20px;}
+.side{position: sticky; top: 76px; align-self: start;}
+.side h3{margin:0 0 8px 0}
+.plan-main{min-width:0}
+#rec_list .meta{font-size:.9em}
+
+@media (max-width:1100px){
+  .plan-grid3{grid-template-columns:1fr}
+  .side{position:static}
+}
