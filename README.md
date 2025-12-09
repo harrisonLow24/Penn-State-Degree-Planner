@@ -20,3 +20,5 @@ A course planning tool designed to help Penn State students organize and manage 
     - Run `python app.py` inside the frontend directory
 4. Start planning your courses!
 
+### Project Created for CMPSC 431W Course @ Penn State
+### Authors: Harrison Low & Ian Mertz
